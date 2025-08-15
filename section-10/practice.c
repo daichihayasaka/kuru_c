@@ -12,6 +12,15 @@
 
 int main(void)
 {
+  int score;
+
+  do {
+    printf("点数を入力してください: ");
+    scanf("%d", &score);
+  } while (score < 0 || score > 100);
 
   return 0;
 }
+
+/* 問題 5 */
+// 必ず最初に処理を実行できるから
